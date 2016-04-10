@@ -116,4 +116,4 @@ ARCHIDROID_CLANG_UNKNOWN_FLAGS := \
 # Therefore, this seems like a safe approach (will only ignore check on recovery.img, without doing anything else)
 # However, if you use compiled recovery.img for your device, please disable this flag (comment or set to false), and lower
 # optimization levels instead
-ARCHIDROID_IGNORE_RECOVERY_SIZE := true
+#ARCHIDROID_IGNORE_RECOVERY_SIZE := true
